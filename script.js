@@ -25,3 +25,6 @@ const mobilemenu = document.getElementById("mobilemenu");
 hamburger.addEventListener("click", () => {
     mobilemenu.classList.toggle("hidden");
 });
+function hamburgerr(){
+    mobilemenu.classList.toggle("hidden");
+}
